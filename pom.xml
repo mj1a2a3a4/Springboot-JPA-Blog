@@ -18,13 +18,7 @@
 	</properties>
 	<dependencies>
 	<!-- 추가 라이브러리 시작-->
-		<!-- 시큐리티 태그 라이브러리 -->
-		<!--
- 		<dependency>
-		  <groupId>org.springframework.security</groupId>
-		  <artifactId>spring-security-taglibs</artifactId>
-		</dependency>
-		-->
+		
 		<!-- JSP 템플릿 엔진 -->
 		<dependency>
 		  <groupId>org.apache.tomcat.embed</groupId>
@@ -42,12 +36,12 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 	
-		<!-- 
+		 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-		-->
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -81,6 +75,12 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- 시큐리티 태그 라이브러리 -->
+		<dependency>
+		  <groupId>org.springframework.security</groupId>
+		  <artifactId>spring-security-taglibs</artifactId>
+		</dependency>
+	
 	</dependencies>
 
 	<build>

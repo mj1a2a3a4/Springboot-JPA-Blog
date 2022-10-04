@@ -31,8 +31,8 @@ public class UserApiController {
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), result);
 	}
 	
-	// 전통적인 로그인 방식
-	@PostMapping("/api/user/login")
+	// 전통적인 로그인 방식y
+	/*@PostMapping("/api/user/login")
 	public ResponseDto<Integer> login(@RequestBody User user, HttpSession session){
 		System.out.println("UserApiController : login 호출됨");
 		User principal = userService.로그인(user);
@@ -42,5 +42,6 @@ public class UserApiController {
 		}
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
 	}
+	*/
 	
 }
