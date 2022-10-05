@@ -1,9 +1,8 @@
 package com.cos.blog.controller.api;
 
-import javax.servlet.http.HttpSession;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,13 +21,12 @@ public class UserApiController {
 	@Autowired
 	private UserService userService;
 	
-	@PostMapping("/api/user")
+	@PostMapping("/auth/joinProc")
 	public ResponseDto<Integer> save(@RequestBody User user) {
 		log.info("UserApiController : save 호출됨");
 		//실제로 DB예 insert를 하고 아래에서 return이 되면 되요.
-		user.setRole(RoleType.USER);
-		int result = userService.save(user);
-		return new ResponseDto<Integer>(HttpStatus.OK.value(), result);
+		userService.회원가입(user);
+		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
 	}
 	
 	// 전통적인 로그인 방식y
@@ -43,5 +41,7 @@ public class UserApiController {
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
 	}
 	*/
+	
+	
 	
 }
