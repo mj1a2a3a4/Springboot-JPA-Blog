@@ -1,0 +1,41 @@
+[33mcommit 06476a9c32b4f54bc5703be9788fd9fa1a2c9050[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: MJ <alswnsdl3151@gmail.com>
+Date:   Wed Oct 5 22:01:47 2022 +0900
+
+    회원가입 스프링 시큐리티 적용
+
+[33mcommit 4440449629132efb7e16d2395104d15366af41c1[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: MJ <alswnsdl3151@gmail.com>
+Date:   Tue Oct 4 21:18:21 2022 +0900
+
+    스프링 시큐리티 적용
+
+[33mcommit dbc8c7ccbde26016413e4f872aa3c1db5abf570d[m
+Author: MJ <alswnsdl3151@gmail.com>
+Date:   Tue Oct 4 15:49:19 2022 +0900
+
+    전통적인 로그인 방식
+
+[33mcommit 4305903d6bfb0b20505abf243d328f1a651a2b0d[m
+Author: mj <alswnsdl3151@gmail.com>
+Date:   Mon Oct 3 19:34:41 2022 +0900
+
+    회원가입로직구현완료
+
+[33mcommit 179839aafc18c0dea62f7c8d1610f4228c916ec5[m
+Author: mj <alswnsdl3151@gmail.com>
+Date:   Sun Oct 2 13:14:38 2022 +0900
+
+    기본화면구현
+
+[33mcommit f84505b4db98fe46a89ffbc35fe10e405278c27d[m
+Author: mj <alswnsdl3151@gmail.com>
+Date:   Sat Oct 1 18:35:32 2022 +0900
+
+    first commit
+
+[33mcommit 21465d1cafaf41f7763e00de4432691ed9ecb26c[m
+Author: mj <alswnsdl3151@gmail.com>
+Date:   Fri Sep 30 14:51:59 2022 +0900
+
+    환경세팅완료
