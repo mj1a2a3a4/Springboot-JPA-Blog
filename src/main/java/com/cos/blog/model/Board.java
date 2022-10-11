@@ -40,7 +40,6 @@ public class Board {
 	@ Lob //대용량 데이터 쓸때 사용하는 어노테이션
  	private String content; //섬머노트 라이브러리 <html> 태그가 섞여서 다지인이 됨.
 	
-	@ColumnDefault("0")
 	private int count; //조회수
 	
 	@ManyToOne (fetch = FetchType.EAGER)// Many = Board, User = One

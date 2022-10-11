@@ -3,16 +3,16 @@
 <div class="container">
 	<form action="/auth/loginProc" method="post">
 		<div class="form-group">
-			<label for="username">USERNAME : </label>
-			<input type="text" class="form-control" placeholder="Enter Username"  name="username" id="username">
+			<label for="username">USERNAME : </label> 
+			<input type="text" class="form-control" placeholder="Enter Username" name="username" id="username">
 		</div>
-			<div class="form-group">
-			<label for="password">PASSWORD : </label>
-			<input type="password" class="form-control" placeholder="Enter Password"  name= "password" id="password">
+		<div class="form-group">
+			<label for="password">PASSWORD : </label> 
+			<input type="password" class="form-control" placeholder="Enter Password" name="password" id="password">
 		</div>
 		<button id="btn-login" class="btn btn-primary">로그인</button>
 	</form>
 </div>
 <br />
-<script src ='/js/user.js'></script>
+<script src='/js/user.js'></script>
 <%@ include file="../layout/footer.jsp"%>
