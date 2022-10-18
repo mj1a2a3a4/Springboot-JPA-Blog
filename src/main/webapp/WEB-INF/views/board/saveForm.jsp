@@ -10,7 +10,7 @@
 		</div>
 
 	</form>
-	<button id="btn-update" class="btn btn-primary">글수정하기</button>
+	<button id="btn-save" class="btn btn-primary">등록하기</button>
 </div>
 <script>
 	$('.summernote').summernote({

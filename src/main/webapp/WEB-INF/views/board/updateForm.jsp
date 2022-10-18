@@ -10,7 +10,7 @@
 			<textarea class="form-control summernote" rows="5" id="content">${board.content }</textarea>
 		</div>
 	</form>
-	<button id="btn-update" class="btn btn-primary">등록하기</button>
+	<button id="btn-update" class="btn btn-primary">수정하기</button>
 </div>
 <script>
 	$('.summernote').summernote({

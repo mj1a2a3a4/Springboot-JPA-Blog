@@ -7,6 +7,7 @@
 	</div>
 	<div>
 		글 번호 : <span id="id"><i>${board.id } </i></span> 작성자 : <span><i>${board.user.username } </i></span>
+		등록일 : <span><i>${board.createDate }</i></span>
 	</div>
 	<hr />
 	<div class="form-group">
