@@ -38,11 +38,11 @@ public class Board {
 	private String title;
 	
 	@ Lob //대용량 데이터 쓸때 사용하는 어노테이션
- 	private String content; //섬머노트 라이브러리 <html> 태그가 섞여서 다지인이 됨.
+ 	private String content; //섬머노트 라이브러리 <html> 태그가 섞여서 다지인이 됨
 	
 	private int count; //조회수
 	
-	@ManyToOne (fetch = FetchType.EAGER)// Many = Board, User = One
+	@ManyToOne (fetch = FetchType.EAGER)// Many = Board, User = One.
 	@JoinColumn(name="userId")
 	private User user; //DB는 오브젝트를 저장할 수 없다. FK, 자바는 오브젝트를 저장할수 있다.
 	
