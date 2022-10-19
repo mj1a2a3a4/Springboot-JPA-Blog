@@ -7,7 +7,7 @@
 			<label for="username">USERNAME : </label> <input type="text" value="${principal.user.username }" class="form-control" placeholder="Enter Username" id="username" readonly="readonly">
 		</div>
 		<div class="form-group">
-			<label for="email">EMAIL : </label> <input type="email" value="${principal.user.email }" class="form-control" placeholder="Enter Email" id="email" readonly="readonly">
+			<label for="email">EMAIL : </label> <input type="email" value="${principal.user.email }" class="form-control" placeholder="Enter Email" id="email" >
 		</div>
 		<c:if test="${ empty principal.user.oauth }">
 			<div class="form-group">
